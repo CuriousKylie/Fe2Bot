@@ -11,3 +11,6 @@ A bot made in discord.py for the roblox game, fe2
 why did i even make this
 
 @kylietta on discord
+
+made back in 2023, has features like getting speedrun info and uploading private servers into the bot
+most of the shit here probably dont work anymore
