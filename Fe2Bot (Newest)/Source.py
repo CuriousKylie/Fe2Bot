@@ -49,7 +49,7 @@ DiscordJump = 'https://discord.com/channels/'
 
 Emotes = dict()
 BlackListed = {'1blindy'}
-Status = 'josepeter1 is gone...'
+Status = 'not'
 MinAgeForSubmit = 5 # in days
 HighestXPShow = 10
 PFPSize = 180
@@ -1449,6 +1449,7 @@ async def on_message(Message: discord.Message):
                     await Message.reply(embed=EmbedFormat(Embed, 'Ratelimit'))
                 else:
                     await Message.author.send(embed=EmbedFormat(Embed, 'Ratelimit'))
+
 
 
 Client.run(os.environ["DISCORD_TOKEN"])
